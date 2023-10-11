@@ -1,3 +1,5 @@
+!This is BobCalcSpecies.f90
+
 subroutine CalcSpecies(CConc, EqK, SC, NC, NS, SConc)
     !
     ! Purpose:
