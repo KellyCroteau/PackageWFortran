@@ -1,0 +1,2 @@
+useDynLib(PackageWFortran, .registration = TRUE)
+exportPattern("^[[:alpha:]]+")

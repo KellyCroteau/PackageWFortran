@@ -1,0 +1,11 @@
+Package: PackageWFortran
+Type: Package
+Title: Playground Package Using Fortran Code
+Version: 0.1.0
+Author: Kelly Croteau - Windward Environmental (Syracuse, NY, USA)
+Maintainer: Kelly Croteau <kellyc@windwardenv.com>
+Description: My first package I've ever made - a testing ground for how to build 
+    a package using Fortran with my package.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
