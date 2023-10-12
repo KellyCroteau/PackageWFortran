@@ -6,7 +6,6 @@ Author: Kelly Croteau - Windward Environmental (Syracuse, NY, USA)
 Maintainer: Kelly Croteau <kellyc@windwardenv.com>
 Description: My first package I've ever made - a testing ground for how to build 
     a package using Fortran with my package.
-License: file LICENSE
+License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.2.3
