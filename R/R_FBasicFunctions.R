@@ -7,10 +7,12 @@
 #'
 #' @examples
 #' x = 1
-#' R_F77(x)
-R_F77 = function(X){
-  result = .Fortran("F77",
+#' ## Not RUN:
+#' ## R_fseventyseven(x)
+R_fseventyseven = function(X){
+  result = .Fortran("fseventyseven",
                     X = as.single(X),
-                    R = single(1))
+                    R = single(1),
+                    PACKAGE = "PackageWFortran")
   return(as.numeric(result$R))
 }
