@@ -3,6 +3,7 @@
 #' @param X A real number
 #'
 #' @return A real number
+#' @useDynLib PackageWFortran, .registration = TRUE
 #' @export
 #'
 #' @examples
@@ -16,3 +17,4 @@ R_fseventyseven = function(X){
                     PACKAGE = "PackageWFortran")
   return(as.numeric(result$R))
 }
+
